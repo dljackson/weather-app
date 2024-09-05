@@ -7,7 +7,8 @@
 
 import Foundation
 
-struct Weather: Codable {
+struct Weather: Decodable {
     let current: Forecast
-    let future: [Forecast]
+    let hourly: [Forecast]
+    let daily: [Forecast]
 }

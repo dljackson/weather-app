@@ -9,7 +9,7 @@ import Foundation
 
 struct City: Codable {
     let name: String
-    let longitude: Double
-    let latitude: Double
-    let weather: Weather
+    let lon: Double
+    let lat: Double
 }
+

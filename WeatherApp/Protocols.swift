@@ -6,3 +6,7 @@
 //
 
 import Foundation
+
+protocol ProvidesIconURL {
+    func iconURL(with name: String) -> URL? 
+}
