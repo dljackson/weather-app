@@ -53,9 +53,6 @@ extension Endpoint {
         components.path = WeatherAPI.Path.icon.rawValue + path + WeatherAPI.iconImageType
         return components.url
     }
-    func url(for icon: String) -> URL? {
-        URL(string: "https://openweathermap.org/img/wn/\(icon)@2x.png")
-    }
 }
 
 /// Extending URLQueryItem to be able to use enum keys instead of strings for name
